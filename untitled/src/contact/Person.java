@@ -8,6 +8,13 @@ public class Person {
     private String[] contactNo;
     private String email;
 
+    public Person(String firstName, String lastName, String[] contactNo, String email) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.contactNo = contactNo;
+        this.email = email;
+    }
+
     @Override
     public String toString() {
         final StringBuffer sb = new StringBuffer("-------- * -------- * -------- * --------\n");
