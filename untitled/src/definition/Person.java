@@ -1,6 +1,4 @@
-package contact;
-
-import java.util.Arrays;
+package definition;
 
 public class Person {
     private String firstName;

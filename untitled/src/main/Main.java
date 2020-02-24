@@ -1,7 +1,7 @@
 package main;
 
-import contact.ContactList;
-import contact.Person;
+import definition.ContactList;
+import definition.Person;
 
 
 import java.util.Scanner;
@@ -64,7 +64,7 @@ public class Main {
                     System.out.println("Press the number against the contact to delete it");
                     int index = scanner.nextInt();
                     String tempName = contactList.getArrayOfNames().get(index - 1).toString();
-                    contactList.delete(index);
+                    contactList.remove(index);
                     System.out.println(tempName + "has been deleted from your contact");
                     break;
                 case 5:
