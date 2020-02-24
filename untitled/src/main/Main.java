@@ -49,6 +49,9 @@ public class Main {
                     Person person = new Person(FirstName, LastName, contactNumber, email);
                     contactList.add(person);
                     break;
+                case 2:
+                    contactList.viewAll();
+                    break;
 
             }
         }
