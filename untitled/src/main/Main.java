@@ -68,10 +68,12 @@ public class Main {
                     System.out.println(tempName + "has been deleted from your contact");
                     break;
                 case 5:
-                    System.out.println("Thankyou for using our services");
+                    System.out.println("Thank you for using our services");
                     flag = false;
                     break;
-
+                default:
+                    System.out.println("Invalid Input");
+                    break;
             }
         }
     }
